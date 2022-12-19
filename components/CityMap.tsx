@@ -11,9 +11,9 @@ export const CityMap = () => {
 
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
-      style: "https://demotiles.maplibre.org/style.json",
-      center: [135.0066832, 37.9619195],
-      zoom: 4,
+      style: "https://api.maptiler.com/maps/basic-v2/style.json?key=VnM2DnCBfW065IzG6RYi",
+      center: [-84.288709, 30.439500],
+      zoom: 5,
     });
 
     return () => {
